@@ -33,11 +33,14 @@ public class Postrequestregisteration {
 		int Statuscode = response.getStatusCode();
 		Assert.assertEquals(200, Statuscode);
 		
-		
+		/*
 		String Statusline = response.getStatusLine();
 		System.out.println(Statusline);
 		
+		
 		Assert.assertEquals(Statusline, "HTTP/1.1 200 OK");
+		
+		*/
 		
 	}
 
